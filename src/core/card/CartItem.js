@@ -25,7 +25,7 @@ export const CartItem = ({ item, removeFromCartFunc }) => {
                 className='card-link'
                 onClick={() => removeFromCartFunc(item)}
               >
-                <small className="clickable">Remove</small>
+                <small className="clickable" style={{color:'red'}}>Remove</small>
               </span>
             </div>
           </div>
