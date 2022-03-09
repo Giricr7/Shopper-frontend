@@ -132,6 +132,9 @@ export const Signin = () => {
               history.push("/signup")
             }}>Signup</Button>
           </div>
+          <h6>Admin access</h6>
+          <h6>email: admin@example.com</h6>
+            <h6>Password: 111111</h6>
         </div>
       </div>
     </Base>
